@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "NodeNext", 
+        "target": "ES2020",
+        "module": "NodeNext",
+        // "target": "ESNext",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "build",
+        "rootDir": "src",
+        "strict": true,
+        "sourceMap": true,
+        "noImplicitAny": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,   
+    "forceConsistentCasingInFileNames": true, 
+  }
+  
